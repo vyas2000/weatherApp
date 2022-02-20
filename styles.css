@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Nunito sans";
+  color: white;
+}
+
+.container {
+  width: 400px;
+  margin: 5px auto;
+  padding: 5px 5px;
+  background-color: teal;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #eee;
+}
+
+.title {
+  text-align: center;
+  font-size: 40px;
+}
+
+.search {
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom: 5px;
+}
+
+.search input[type="text"] {
+  border: 2px solid #eee;
+  border-radius: 3px;
+  outline: none;
+  margin-bottom: 5px;
+}
+
+.card {
+  margin: 10px auto;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.d-none {
+  display: none;
+}
+
+img.time {
+  width: 400px;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border-radius: 50%;
+  position: absolute;
+  top: 63%;
+}
+.weather-icon img {
+  width: 100px;
+  height: 100px;
+}
+
+.details {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.temp {
+  font-size: 2rem;
+}

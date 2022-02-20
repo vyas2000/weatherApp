@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>weatherApp</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">Weather</h2>
+      <div class="search">
+        <form class="change-location">
+          <label for="city">search for city or country</label> <br />
+          <input type="text" name="city" id="city" />
+        </form>
+      </div>
+      <div class="card d-none">
+        <img
+          src="https://via.placeholder.com/400x300"
+          alt="weather image"
+          class="time"
+        />
+        <div class="weather-icon"></div>
+        <div class="details"></div>
+      </div>
+    </div>
+    <script src="api.js"></script>
+    <script src="Dom.js"></script>
+  </body>
+</html>
