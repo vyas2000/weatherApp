@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  marging: 0;
   box-sizing: border-box;
 }
 
@@ -7,21 +7,29 @@ html,
 body {
   font-family: "Nunito sans";
   color: white;
-  background: linear-gradient(200.42deg, #FC594F 13.57%, rgba(73, 30, 184, 0.76) 98.35%);
+  background: linear-gradient(
+    200.42deg,
+    #fc594f 13.57%,
+    rgba(73, 30, 184, 0.76) 98.35%
+  );
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
-  width: 400px;
+  width: 300px;
   margin: 5px auto;
   padding: 5px 5px;
-  background: linear-gradient(180deg, #242452 0%, #4926AD 100%);
+  background: linear-gradient(180deg, #242452 0%, #4926ad 100%);
   border-radius: 15px;
-  box-shadow: 10px 10px 10px #eee;
 }
-
 .title {
+  margin: 5px 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .search {
@@ -31,14 +39,14 @@ body {
 }
 
 .search input[type="text"] {
-  border: none;
-  border-radius: 5px;
+  border: 2px solid #eee;
+  border-radius: 3px;
   outline: none;
   margin-bottom: 5px;
 }
 
 .card {
-  margin: 10px auto;
+  margin: 5px auto;
   margin-bottom: 5px;
   display: flex;
   flex-direction: column;
@@ -52,7 +60,7 @@ body {
 }
 
 img.time {
-  width: 400px;
+  width: 300px;
 }
 
 .weather-icon {
@@ -61,7 +69,7 @@ img.time {
   background-color: #eee;
   border-radius: 50%;
   position: absolute;
-  top: 63%;
+  top: 55%;
 }
 .weather-icon img {
   width: 100px;
@@ -69,13 +77,15 @@ img.time {
 }
 
 .details {
-  padding-top: 60px;
+  padding-top: 45px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-
+.city-name {
+  margin: 2px 0;
+}
 .temp {
   font-size: 2rem;
 }
