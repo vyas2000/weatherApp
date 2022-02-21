@@ -6,7 +6,8 @@
 html,
 body {
   font-family: "Nunito sans";
-  color: white;
+  color: white;a
+  background: linear-gradient(200.42deg, #FC594F 13.57%, rgba(73, 30, 184, 0.76) 98.35%);
 }
 
 .container {
