@@ -6,7 +6,7 @@
 html,
 body {
   font-family: "Nunito sans";
-  color: white;a
+  color: white;
   background: linear-gradient(200.42deg, #FC594F 13.57%, rgba(73, 30, 184, 0.76) 98.35%);
 }
 
@@ -14,8 +14,8 @@ body {
   width: 400px;
   margin: 5px auto;
   padding: 5px 5px;
-  background-color: teal;
-  border-radius: 10px;
+  background: linear-gradient(180deg, #242452 0%, #4926AD 100%);
+  border-radius: 15px;
   box-shadow: 10px 10px 10px #eee;
 }
 
@@ -31,8 +31,8 @@ body {
 }
 
 .search input[type="text"] {
-  border: 2px solid #eee;
-  border-radius: 3px;
+  border: none;
+  border-radius: 5px;
   outline: none;
   margin-bottom: 5px;
 }
